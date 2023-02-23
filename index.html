@@ -21,18 +21,38 @@
       emailjs.init("J01QMSmqj93QY8gmJ");
     })();
   </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="nav-list">
-        <a href="#container"><img src="85053755_109371820631445_646055740942843904_n-removebg-preview.png" alt="logo" class="src" width="100px" height="100px"></a>
-        <a href="#">ABOUT US</a>
-        <a href="#academics">ACEDEMICS</a>
-        <a href="#facilities">FACILITIES</a>
-        <a href="#slider">PHOTOS</a>
-        <a href="#contact">ADMISSIONS/CONTACT</a>
-       </div>
+   
+      
 
-       <div id="container">
+      <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title" href="#container" >
+            <img src="85053755_109371820631445_646055740942843904_n-removebg-preview.png" alt="logo" class="src" width="100px" height="100px">
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a href="#">ABOUT US</a>
+          <a href="#academics">ACEDEMICS</a>
+          <a href="#facilities">FACILITIES</a>
+          <a href="#slider">PHOTOS</a>
+          <a href="#contact">ADMISSIONS/CONTACT</a>
+        </div>
+      </div>
+
+      <div id="container">
+        
       </div>
 
       <div id="academics">
@@ -76,74 +96,90 @@
       </h3>
       </div>
 
-        <div id="slider">
-            <div class="images">
-                <input type="radio" name="slide" id="img1" checked>
-                <input type="radio" name="slide" id="img2">
-                <input type="radio" name="slide" id="img3">
-                <input type="radio" name="slide" id="img4">
-    
-                <img src="119482498_187948976107062_1233973190594019861_n.jpg" class="m1" alt="img1">
-                <img src="119699223_187948959440397_6335753381476390888_n.jpg" class="m2" alt="img2">
-                <img src="WhatsApp Image 2023-02-20 at 01.54.03.jpg" class="m3" alt="img3">
-                <img src="WhatsApp Image 2023-02-20 at 01.54.18.jpg" class="m4" alt="img4">
-            </div>
-            <div class="dots">
-                <label for="img1"></label>
-                <label for="img2"></label>
-                <label for="img3"></label>
-                <label for="img4"></label>
-            </div>
-        </div>
-    <div id="contact">
-        <div class="container border mt-3 bg-light">
-            <div class="row">
-              <div class="col-md-6 p-5 bg-primary text-white ">
-                <h1>Our Contact Information:</h1>
-                <h4>
-                    📧 rainbowschoolballia@gmail.com
-                    <br>
-                    📞 09131051401
-                    <br>
-                    📍Harpur Middhi, Dhoom Baba, Ballia
-                </h4>
+      <div id="slider">
+      <figure>
+        <img src="119482498_187948976107062_1233973190594019861_n.jpg" class="m1" alt="img1">
+        <img src="119699223_187948959440397_6335753381476390888_n.jpg" class="m2" alt="img2">
+        <img src="WhatsApp Image 2023-02-20 at 01.54.03.jpg" class="m3" alt="img3">
+        <img src="WhatsApp Image 2023-02-20 at 01.54.18.jpg" class="m4" alt="img4">
+      </figure>
+      </div>
+      
+      <div id="contact">
+      <section class="contact-sec sec-pad">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="contact-detail">
+                <h1 class="section-title">Contact us</h1>
+      
+                <ul class="contact-ul">
+                  <li><i class="fa fa-map-marker-alt"></i> <b>Harpur Middhi, Dhoom Baba, Ballia, UP </b></li>
+                  <li>
+                    <i class="fa fa-phone-square"></i>
+                    <a href="tel:08510004495"><b>09131051401</b></a>
+                  </li>
+      
+                  <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:rainbowschoolballia@gmail.com"><b> rainbowschoolballia@gmail.com</b></a>
+                  </li>
+
+                  <li>
+                    <i class="fa fa-facebook"></i>
+                    <a href="https://www.facebook.com/profile.php?id=100063928090087" class="fb"><b>Rainbow International School</b></a>
+                  </span></li>
+
+                </ul>
+
+                  
+
               </div>
-              <div class="col-md-6 border-left py-3">
-                <h1>Inquiry form</h1>
-                <div class="form-group">
-                  <h5 for="name">Name</h5>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    placeholder="Enter name"
-                  />
+            </div>
+      
+            
+            <div class="col-md-6">
+              <form action="#" class="contFrm" method="POST">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <input type="text" name="name" placeholder="Your Name" class="inptFld" required />
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <input type="email" name="email" placeholder="Email Address" class="inptFld" required />
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <input type="tel" name="phone" placeholder="Phone Number" class="inptFld" required />
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <input type="text" name="sub" placeholder="Subject" class="inptFld" required />
+                  </div>
+      
+                  <div class="col-12">
+                    <textarea class="inptFld" rows="" cols="" placeholder="Your Message..." required></textarea>
+                  </div>
+      
+                  <div class="col-12">
+                    <input type="submit" name="submit" value="SUBMIT" class="inptBtn" />
+                  </div>
                 </div>
-                <div class="form-group">
-                  <h5 for="email">Email</h5>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="Enter email"
-                  />
-                </div>
-                <div class="form-group">
-                  <h5 for="message">Message</h5>
-                  <textarea class="form-control" id="message" rows="3"></textarea>
-                </div>
-                <button class="btn btn-primary" onclick="sendMail()">Submit</button>
-              </div>
+              </form>
             </div>
           </div>
-        </div>
       
-      </div>
-
-      <footer>
-        <h4>ALL THE RIGHTS ARE RESERVED BY RAINBOW INTERNATIONAL SCHOOL™</h4>
-      </footer>
-
+          <div style="text-align: center; margin-top: 20px;">
+            <p> Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script> ALL THE RIGHTS ARE RESERVED BY RAINBOW INTERNATIONAL SCHOOL™</h4>
+            </p>
+          </div>
+      
+        </div>
+      </section>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
