@@ -140,7 +140,7 @@ height: 100vh;
 
 @media only screen and (max-width: 767px) {
   #academics h2 {
-   background-image: url(Training\ Educational\ Institutions\ Winter\ Vacation\ Enrollment\ Background.jpeg);
+   background-image: none;
   }
 }
 
@@ -234,6 +234,7 @@ height: 100vh;
   75% { left: -300%; }
   95% { left: -300%; }
   100% { left: -400%; }
+  
   }
   
   body { margin: 0; } 
