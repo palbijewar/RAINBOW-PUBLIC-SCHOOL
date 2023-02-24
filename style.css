@@ -147,7 +147,13 @@ height: 100vh;
   background-repeat: no-repeat;
 
   /* Set background size auto */
-  background-size: auto;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  #academics {
+  background-size: cover;
+  }
 }
 
 #academics h2{
