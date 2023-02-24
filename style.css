@@ -76,12 +76,12 @@ body{
   .nav > .nav-links {
     position: absolute;
     display: block;
-    width: 50%;
+    width: 100%;
     background-color: #85a3c6;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 20px;
+    top: 50px;
     left: 0px;
   }
   .nav > .nav-links > a {
@@ -96,6 +96,8 @@ body{
     overflow-y: auto;
   }
 }
+
+/* facilities css */
 
 
 #container {
