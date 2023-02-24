@@ -74,11 +74,12 @@ body{
     border-top: 2px solid #eee;
   }
   .nav > .nav-links {
-    position: absolute;
+    height: 420px;
     display: block;
-    width: 100%;
-    background-color: #333;
-    height: 0px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 80px;
+    background-color: #7a9fc9;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
     top: 50px;
@@ -86,7 +87,7 @@ body{
   }
   .nav > .nav-links > a {
     display: block;
-    width: 100%;
+    width: 50%;
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
@@ -96,9 +97,6 @@ body{
     overflow-y: auto;
   }
 }
-
-/* facilities css */
-
 
 #container {
   /* Add image */
