@@ -9,7 +9,7 @@ body{
 .nav {
   height: 100px;
   width: 100%;
-  background-color: #478bc2;
+  background-color: #704d70;
   position: fixed;
 }
 
@@ -74,7 +74,7 @@ body{
     border-top: 2px solid #eee;
   }
   .nav > .nav-links {
-    position: absolute;
+    position: relative;
     display: block;
     width: 100%;
     background-color: #85a3c6;
