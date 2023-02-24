@@ -76,7 +76,7 @@ body{
   .nav > .nav-links {
     position: relative;
     display: block;
-    width: 100%;
+    width: 30%;
     background-color: #85a3c6;
     height: 0px;
     transition: all 0.3s ease-in;
