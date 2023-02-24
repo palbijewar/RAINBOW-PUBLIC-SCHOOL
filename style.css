@@ -147,7 +147,7 @@ height: 100vh;
   background-repeat: no-repeat;
 
   /* Set background size auto */
-  background-size: cover;
+  background-size: auto;
 }
 
 #academics h2{
